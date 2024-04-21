@@ -9,7 +9,7 @@ import Cardprops from "./Components/Cardprops";
 function App() {
   // return (
   //     <div className="flex bg-zinc-300">
-  //         <Card />
+          // <Card />
   //         <Eventhandle/>
   //         <State/>
   //         <StateArr/>
