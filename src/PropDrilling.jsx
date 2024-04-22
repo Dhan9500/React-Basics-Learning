@@ -1,13 +1,25 @@
 import Cmp1 from "./New Components/Cmp1";
 import Birthday from "./Prop Drilling Exercise/Birthday";
-import PropDrillingExe from "./Prop Drilling Exercise/PropDrillingExe";
+import Music from "./Prop Drilling Exercise/Music";
+import Navbar from "./Prop Drilling Exercise/Navbar";
 
 export default function(){
     return(
-        <>
-        {/* <Birthday/> */}
-        <PropDrillingExe/>
-        </>
+        <div>
+            <Navbar/>
+            <div className="flex flex-wrap ">
+            <Music/>
+            <Music/>
+            <Music/>
+            <Music/>
+            <Music/>
+            <Music/>
+            <Music/>
+            <Music/>
+            <Music/>
+            <Music/>
+            </div>
+        </div>
         
     );
 }
