@@ -30,11 +30,21 @@ export default function FormHandling() {
     },
   ]);
 
+  const setForm=(formData)=>{
+    setData(formData);
+  }
+
+  const remove=(cindex)=>{
+    return setData(data.filter((item,index)=>{
+        return index!=cindex;
+    }));
+  }
+
   return (
     <div className="w-full h-screen flex justify-center items-center">
       <div className="container mx-auto">
-        <Cards data={data} />
-        <Form data={data}/>
+        <Cards cdata={data} remove={remove} />
+        <Form fdata={data} meth={setForm}/>
       </div>
     </div>
   );
