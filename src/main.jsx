@@ -5,6 +5,7 @@ import './index.css'
 import Appprop from './Appprop.jsx'
 import Exerciseset2 from './Exerciseset2.jsx'
 import PropDrilling from './PropDrilling.jsx'
+import FormHandling from './FormHandling.jsx'
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <App /> */}
     {/* <Appprop /> */}
     {/* <Exerciseset2 /> */}
-    <PropDrilling/>
+    {/* <PropDrilling/> */}
+    <FormHandling/>
   </React.StrictMode>,
 )

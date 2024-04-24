@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Cmp1 from "./New Components/Cmp1";
 import Birthday from "./Prop Drilling Exercise/Birthday";
 import Music from "./Prop Drilling Exercise/Music";
 import Navbar from "./Prop Drilling Exercise/Navbar";
